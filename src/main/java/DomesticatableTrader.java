@@ -15,8 +15,7 @@ class DomesticatableTrader extends Trader<Domesticatable> {
      * @param money     The Trader's money
      */
     public DomesticatableTrader(List<Domesticatable> inventory,
-                                List<Domesticatable>
-                                        wishlist,
+                                List<Domesticatable> wishlist,
                                 int money) {
         super(inventory, wishlist, money);
     }
@@ -42,5 +41,6 @@ class DomesticatableTrader extends Trader<Domesticatable> {
         return super_price * 2;
 
     }
+
 
 }
